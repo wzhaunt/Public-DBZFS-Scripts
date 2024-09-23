@@ -12,6 +12,6 @@ NDR/Warline Server:
 https://discord.gg/gXVhBYdFMN
 
 Booga41 Server:
-Fuck Booga :)
+https://discord.gg/F5WbRVWCaT
 
 Everyone else I don't know you sadly.
