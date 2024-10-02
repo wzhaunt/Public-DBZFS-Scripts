@@ -1,4 +1,6 @@
-local x = "Kys"
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
 
 local Player = game.Players.LocalPlayer
 local PG = Player.PlayerGui
@@ -193,7 +195,7 @@ PG.ChildAdded:Connect(function(Child)
                         task.wait(6)
 
                         if Tries >= 3 then
-                            makefolder("Haunt")
+                            makefolder("FanoutHaunt")
                         end
 
                         if Player.Character.Race.Value ~= "Namekian" then
@@ -236,7 +238,7 @@ if tonumber(Player.PlayerGui.HUD.Bottom.Stats.StatPoints.Val.Text) >= Settings.M
     Finished = true
     Player.PlayerGui.HUD.Bottom.Stats.Labvel.TextLabel.Text = "MAX POINTS REACHED"
 
-    SendNotification("Haunt", "Max points reached", 5)
+    SendNotification("FanoutHaunt", "Max points reached", 5)
     return
 end
 
@@ -301,7 +303,7 @@ Conn = Player.CharacterAdded:Connect(function()
             HardResets += 1
 
             if HardResets >= 10 then
-                makefolder("Haunt rejoin")
+                makefolder("FanoutHaunt rejoin")
             end
 
             Fixing = true
@@ -484,7 +486,7 @@ while true do
         end
 
         if Settings.HideName then
-            Player.PlayerGui.HUD:WaitForChild("Bottom", 30).Stats.Namae.Val.Text = "Haunt"
+            Player.PlayerGui.HUD:WaitForChild("Bottom", 30).Stats.Namae.Val.Text = "FanoutHaunt"
         end
 
         Player.PlayerGui.HUD.Bottom.Stats.Visible = true
@@ -506,7 +508,7 @@ while true do
 
             PG.HUD.Bottom.Stats.Labvel.TextLabel.Text = "Haunt's Infinte Stats | MAX POINTS REACHED | ACCURACY RATE : " .. AccuracyRate
 
-            SendNotification("Haunt", "Max points reached", 5)
+            SendNotification("FanoutHaunt", "Max points reached", 5)
             breakk = true
             return
         end
