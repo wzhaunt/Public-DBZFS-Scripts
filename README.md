@@ -17,4 +17,4 @@ https://discord.gg/xvEr2AsvK5
 Aloof's Server
 https://discord.gg/aloof
 
-Love Haunt :> 
+Love Haunt :>
