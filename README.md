@@ -5,13 +5,16 @@ DBZ Final Stand:
 TheUnknownScripter's Server:
 https://discord.gg/2BfG9esrEZ
 
-AppleSW Server:
-https://discord.gg/xvEr2AsvK5
-
 NDR/Warline Server:
 https://discord.gg/gXVhBYdFMN
 
 Booga41 Server:
 https://discord.gg/F5WbRVWCaT
 
-Everyone else I don't know you sadly.
+AppleSW Server:
+https://discord.gg/skidhub
+
+Aloof's Server
+https://discord.gg/aloof
+
+Love Haunt :>
