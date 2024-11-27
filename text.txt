@@ -1,3 +1,5 @@
+repeat
+	task.wait()
 if not game:IsLoaded() then
     game.Loaded:Wait()
 end
