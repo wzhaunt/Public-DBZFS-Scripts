@@ -1,6 +1,6 @@
 repeat
 	task.wait()
-if not game:IsLoaded() then
+until game:IsLoaded() and game.Players.LocalPlayer
     game.Loaded:Wait()
 end
 
