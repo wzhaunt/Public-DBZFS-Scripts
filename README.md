@@ -14,7 +14,4 @@ https://discord.gg/F5WbRVWCaT
 AppleSW Server:
 https://discord.gg/xvEr2AsvK5
 
-Aloof's Server
-https://discord.gg/aloof
-
 Love Haunt :>
